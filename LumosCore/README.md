@@ -2,11 +2,9 @@
 ![image](rapidNetSim.png)
 
 # Introduction
-This project is combined with [rapidnetsim](https://github.com/qyysjtu/RapidNetSim.git) and 
-[figret](https://github.com/FIGRET/figret), used for [LumosCore](https://arxiv.org/abs/2411.01503)'s simulation and 
+This project is used for [LumosCore](https://arxiv.org/abs/2411.01503)'s simulation and 
 its future work. LumosCore reconfigures the network topology when task starts, and dose not customize the routing strategy.
-We are exploring the possibility of using figret to optimize the routing strategy with static topology, or with 
-reconfiguration without the knowledge of the task.
+
 
 # Prerequisites
 This project contains two python packages, rapidnetsim and figret. We recommend you to install the packages in `requirements.txt`
@@ -42,7 +40,7 @@ Large-scale verification.
 
 Multi-stage controller.
 
-Ring adn Butterfly strategy.
+Ring adn Butterfly (HDRM) strategy.
 
 Multiple tasks can be excuted in turn.
 
