@@ -33,7 +33,6 @@ traffic_matrix_fig/
 *.pt
 *.pth
 /fig/
-*.pdf
 generate_ini_conf.py
 start.sh
 *.png

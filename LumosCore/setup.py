@@ -7,8 +7,6 @@ setup(
     version='0.1',
     long_description=open('README.md', encoding='utf8').read(),
     long_description_content_type='text/markdown',
-    author='Peirui Cao, Xinchi Han, Shizhen Zhao, Tongxi Lv',
-    # author='Ximeng Liu, Yongxi Lv, Xinchi Han',
     install_requires=[
         'gurobipy==11.0.2',
         'ortools==9.10.4067',
