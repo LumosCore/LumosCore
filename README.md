@@ -2,7 +2,7 @@
 ![image](rapidNetSim.png)
 
 # Introduction
-This project is used for [LumosCore](https://arxiv.org/abs/2411.01503)'s simulation and 
+This project is used for [LumosCore]'s simulation and 
 its future work. LumosCore reconfigures the network topology when task starts, and dose not customize the routing strategy.
 
 
