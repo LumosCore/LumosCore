@@ -28,9 +28,6 @@ class ChangeTableWeightEvent(Event):
             Simulator.register_event(ChangeTableWeightEvent(self.time_interval, self.time_interval))
 
     def calculate_and_change_weight(self, traffic_matrices):
-        """
-        调用Figret的推理模型，计算每条路径的分流比例，然后根据分流比例调整每条路径的权重。
-        """
         from rapidnetsim.core.simulator import Simulator
         infra = Simulator.get_infrastructure()
         num_nodes = infra.pod_num + infra.spine_switch_num
